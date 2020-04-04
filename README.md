@@ -1,4 +1,5 @@
 # LuncherRP
+## Free Fivem Luncher Library
 
   
 ![Resim1](https://i.hizliresim.com/KT3m45.png)
@@ -28,15 +29,10 @@ Projeyi github adresimden indirip üzerinde düzenleme yapabilirsiniz(Bu yol ile
 Eğer projeyi indirip düzenlerseniz aşağıdaki 3 adımı yapmanıza gerek yok.  
   
 **1-Adım** = Yeni bir proje oluşturduktan sonra fivemluncher.dll projeye bileşen olarak eklemelisiniz.  
-  
-
-![8026](https://www.fivemturk.com/attachments/adim1-gif.8026/)
-
-  
+   ![Adim1](https://s6.gifyu.com/images/adim1.gif)
   
 **Adım 2** = Aşağıda ki kodu form.cs eklemelisiniz.  
-
-![8027](https://www.fivemturk.com/attachments/adim2-png.8027/)
+![adim2](https://i.hizliresim.com/4S6xOh.png)
 
   
 Kopyala yapıştır yapmak için :  
@@ -45,7 +41,7 @@ ayarlar LuncherRp = new ayarlar();
 **Adım 3** = Usingler kımına aşağıdaki kodu eklemek:  
 using fivemLuncher;  
 
-![8029](https://www.fivemturk.com/attachments/adim3-png.8029/)
+![adim3]([https://i.hizliresim.com/phPeH1.png](https://i.hizliresim.com/phPeH1.png))
 
   
   
