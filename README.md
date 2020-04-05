@@ -20,7 +20,7 @@ Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda mi
 -Discord ve slider resimlerinide ayarlardan ekleyip düzeltebileceksiniz.  
   
 
-![8025](https://www.fivemturk.com/attachments/ekran1-png.8025/)
+![8025](https://i.hizliresim.com/apnQ9H.png)
 
   
   
