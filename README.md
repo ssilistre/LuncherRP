@@ -41,7 +41,7 @@ ayarlar LuncherRp = new ayarlar();
 **Adım 3** = Usingler kımına aşağıdaki kodu eklemek:  
 using fivemLuncher;  
 
-![adim3]([https://i.hizliresim.com/phPeH1.png](https://i.hizliresim.com/phPeH1.png))
+![adim3]https://i.hizliresim.com/phPeH1.png)
 
   
   
