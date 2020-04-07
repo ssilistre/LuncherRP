@@ -12,15 +12,11 @@ Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda mi
 -Luncherı kapattığınızda oyunda kapanıyor.  
 -Basit sürekli güncellenen hile koruma algoritması mevcut.  
 -Luncher içine link ekleyebiliyorsunuz sınırsız.  
-  
-**Henüz bitmeyen özellik;**  
--Öncelikle kod yazmayı bilmeyen arkadaşlar luncher ayarlar dosyasını değiştirerek çok basit şekilde kendi sunucu adresine yönlendirebilir.  
--Discord ve slider resimlerinide ayarlardan ekleyip düzeltebileceksiniz.  
+-Discord üstünden mesaj gönderebilme
+-Online sunucudaki üyelerin sayısını görebilme
+-Lunchersız girişi kapatabilme
   
 
-![8025](https://www.fivemturk.com/attachments/ekran1-png.8025/)
-
-  
   
   
 Projeyi github adresimden indirip üzerinde düzenleme yapabilirsiniz(Bu yol ile çok hızlı ilerleme kaydedebilirsiniz). Birden fazla kişi aynı özelliği isterse ekleyebilirim.  
