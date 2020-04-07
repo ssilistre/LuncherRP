@@ -13,17 +13,3 @@ C:\Users\salam\source\repos\LeyjonRPLuncher\obj\Release\LeyjonRPLuncher.exe
 C:\Users\salam\source\repos\LeyjonRPLuncher\obj\Release\LeyjonRPLuncher.pdb
 C:\Users\salam\source\repos\LeyjonRPLuncher\bin\Release\Newtonsoft.Json.dll
 C:\Users\salam\source\repos\LeyjonRPLuncher\bin\Release\Newtonsoft.Json.xml
-D:\Burası\luncherRP\LuncherRP\bin\Release\LeyjonRPLuncher.exe.config
-D:\Burası\luncherRP\LuncherRP\bin\Release\LeyjonRPLuncher.exe
-D:\Burası\luncherRP\LuncherRP\bin\Release\LeyjonRPLuncher.pdb
-D:\Burası\luncherRP\LuncherRP\bin\Release\Newtonsoft.Json.dll
-D:\Burası\luncherRP\LuncherRP\bin\Release\fivemLuncher.pdb
-D:\Burası\luncherRP\LuncherRP\bin\Release\Newtonsoft.Json.xml
-D:\Burası\luncherRP\LuncherRP\obj\Release\LeyjonRPLuncher.csprojAssemblyReference.cache
-D:\Burası\luncherRP\LuncherRP\obj\Release\LeyjonRPLuncher.Luncher.resources
-D:\Burası\luncherRP\LuncherRP\obj\Release\LeyjonRPLuncher.Properties.Resources.resources
-D:\Burası\luncherRP\LuncherRP\obj\Release\LeyjonRPLuncher.csproj.GenerateResource.cache
-D:\Burası\luncherRP\LuncherRP\obj\Release\LeyjonRPLuncher.csproj.CoreCompileInputs.cache
-D:\Burası\luncherRP\LuncherRP\obj\Release\LeyjonRPLuncher.csproj.CopyComplete
-D:\Burası\luncherRP\LuncherRP\obj\Release\LeyjonRPLuncher.exe
-D:\Burası\luncherRP\LuncherRP\obj\Release\LeyjonRPLuncher.pdb
