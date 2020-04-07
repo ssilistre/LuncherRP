@@ -50,9 +50,9 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
  -   **LuncherRP.guncellemekontrolet();** //bu kitaplığın güncel mi değil mi olduğunu size söyleyen kod parçası.
  -   **LuncherRP.kapatProgrami();** // Bu komut tetiklendiğinde fivem kapatıyor. Daha fazla önlem almak isterseniz size kalmış oluyor.
  - **LuncherRp.discordMesajYaz("webhooklinki","mesajınız");** //Bu kod ile bir web hook oluşturduktan sonra webhhooklinki daha sonra mesajınızı yazıp göndertebiliyorsunuz.
- - ** LuncherRP.steamidgir();** //buda steamid girilmesi gerek yer. Sunucuya özel yapıcaksanız luncherı buna ihtiyacınız olucak.
- - ** LuncherRP.onlineoyuncusayisi("sunucu ozel no");** //burada sunucuya bağlanıp sunuda kayitli olan kullanicilara bakar test aşamasında. Sunucu özel no yu kendiniz belirtmelisiniz.
- - **  LuncherRP.sunucuyaozelbaglan("Özel sunucu no", "ip adresiniz", "port numaranız");** //lunchersız sunucuya giriş yapılmasını istemiyorsanız bunu kullanıyorsunuz. Fakat bu test aşamasında özel sunucu no  onlineoyuncusayisında kullandığınız özel numarayla aynı olmalı mesala "112" yazdınız. Her özel sunucu noyu isteyen yere 112 yazmalısınız.
+ - **LuncherRP.steamidgir();** //buda steamid girilmesi gerek yer. Sunucuya özel yapıcaksanız luncherı buna ihtiyacınız olucak.
+ - **LuncherRP.onlineoyuncusayisi("sunucu ozel no");** //burada sunucuya bağlanıp sunuda kayitli olan kullanicilara bakar test aşamasında. Sunucu özel no yu kendiniz belirtmelisiniz.
+ - **LuncherRP.sunucuyaozelbaglan("Özel sunucu no", "ip adresiniz", "port numaranız");** //lunchersız sunucuya giriş yapılmasını istemiyorsanız bunu kullanıyorsunuz. Fakat bu test aşamasında özel sunucu no  onlineoyuncusayisında kullandığınız özel numarayla aynı olmalı mesala "112" yazdınız. Her özel sunucu noyu isteyen yere 112 yazmalısınız.
  - **LuncherRP.VeriOku("KategoriAdı", "AnahtarAdı");** //ayarlar.ini  dosyasındaki gibi [Luncher]
 Baslik=Luncher adı - Burada kategori adı Luncher anahtar adı ise Baslik bu komut dosyadaki veriyi okumaya yarıyor.
  
