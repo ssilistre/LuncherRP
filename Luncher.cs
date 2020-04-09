@@ -15,16 +15,19 @@ namespace LeyjonRPLuncher
             //****************************************
             InitializeComponent();
             LuncherRP.servisKontrol();
-            LuncherRP._luncherBaslik = LuncherRP.VeriOku("Luncher", "Baslik");
-            LuncherRP._weebHookLink = LuncherRP.VeriOku("WebHook", "DicordWebHookLink");
-            LuncherRP._discordLink = LuncherRP.VeriOku("Luncher", "DiscordDavet");
-            LuncherRP._oyunip = LuncherRP.VeriOku("Luncher", "Oyunip");
-            LuncherRP._oyunport = LuncherRP.VeriOku("Luncher", "Oyunport");
-            LuncherRP._ozelsunucuno = LuncherRP.VeriOku("Luncher", "ozelSunucuid");
-            LuncherRP._reklamMetni = LuncherRP.VeriOku("Luncher", "ReklamMetni");
-            LuncherRP._resim1Link = LuncherRP.VeriOku("Gorseller", "Resim1");
-            LuncherRP._resim2Link = LuncherRP.VeriOku("Gorseller", "Resim2");
-            LuncherRP._resim3Link = LuncherRP.VeriOku("Gorseller", "Resim3");
+            //////////////////////////////////////////////**************************
+            /////////////////////////////////////////////////**************************
+            /////////////////////////////////////////////////**************************
+            LuncherRP._luncherBaslik = LuncherRP.VeriOku("Luncher", "Baslik");   //Ayarlar dosyasından verileri okumak için okumasını istemiyorsanız silebilirsiniz.
+            LuncherRP._weebHookLink = LuncherRP.VeriOku("WebHook", "DicordWebHookLink"); //Ayarlar dosyasından verileri okumak için okumasını istemiyorsanız silebilirsiniz.
+            LuncherRP._discordLink = LuncherRP.VeriOku("Luncher", "DiscordDavet"); //Ayarlar dosyasından verileri okumak için okumasını istemiyorsanız silebilirsiniz.
+             LuncherRP._ozelsunucuno = LuncherRP.VeriOku("Luncher", "ozelSunucuid"); //Ayarlar dosyasından verileri okumak için okumasını istemiyorsanız silebilirsiniz.
+            LuncherRP._oyunip = LuncherRP.VeriOku("Luncher", "Oyunip"); //Ayarlar dosyasından verileri okumak için okumasını istemiyorsanız silebilirsiniz.
+            LuncherRP._oyunport = LuncherRP.VeriOku("Luncher", "Oyunport"); //Ayarlar dosyasından verileri okumak için okumasını istemiyorsanız silebilirsiniz.
+            LuncherRP._reklamMetni = LuncherRP.VeriOku("Luncher", "ReklamMetni"); //Ayarlar dosyasından verileri okumak için okumasını istemiyorsanız silebilirsiniz.
+            LuncherRP._resim1Link = LuncherRP.VeriOku("Gorseller", "Resim1"); //Ayarlar dosyasından verileri okumak için okumasını istemiyorsanız silebilirsiniz.
+            LuncherRP._resim2Link = LuncherRP.VeriOku("Gorseller", "Resim2"); //Ayarlar dosyasından verileri okumak için okumasını istemiyorsanız silebilirsiniz.
+            LuncherRP._resim3Link = LuncherRP.VeriOku("Gorseller", "Resim3"); //Ayarlar dosyasından verileri okumak için okumasını istemiyorsanız silebilirsiniz.
             //Ayarlar dosyasından verileri okumak için okumasını istemiyorsanız silebilirsiniz.
             //////////////////////////////////////////////**************************
         }
@@ -33,9 +36,10 @@ namespace LeyjonRPLuncher
         {
             reklamMetni.Text = LuncherRP.ReklamMetni;
             slider_Zaman.Enabled = true;
-            lblSayi.Text = LuncherRP.onlineoyuncusayisi("123");
+            
             this.Text = LuncherRP._luncherBaslik;
-
+             lblSayi.Text= LuncherRP.onlinekackisi(LuncherRP._ozelsunucuno);
+           // lblSayi.Text = LuncherRP.onlinekackisi("55e8e4d5cf0408");
 
         }
 
@@ -46,10 +50,19 @@ namespace LeyjonRPLuncher
 
         private void btnOyna_Click(object sender, EventArgs e)
         {
-         
-              hileKontrol.Enabled = true;
-              LuncherRP.sunucuyaozelbaglan(LuncherRP._ozelsunucuno, LuncherRP._oyunip, LuncherRP._oyunport);
-              this.WindowState = FormWindowState.Minimized; //bu kod ekranı küçültür.
+            if (LuncherRP._ozelsunucuno == "0")
+            {
+                // LuncherRP.luncherozelgiris(LuncherRP._ozelsunucuno);
+                LuncherRP.luncherozelgiris("55e8e4d5cf0408");
+                hileKontrol.Enabled = true;
+
+                this.WindowState = FormWindowState.Minimized; //bu kod ekranı küçültür.
+            }
+            else
+            {
+                LuncherRP.sunucuyabaglan(LuncherRP._oyunip,LuncherRP._oyunport);
+            }
+          
 
         }
         private void slider_Zaman_Tick(object sender, EventArgs e)
@@ -99,7 +112,8 @@ namespace LeyjonRPLuncher
         {
             //
 
-            LuncherRP.steamidgir();
+            
+           LuncherRP.steamidgir();
           
             // results in "494809724602834812404472"
             
