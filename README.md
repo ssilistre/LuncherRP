@@ -9,7 +9,7 @@ https://www.fivemtr.net/misc.php?page=anahtar
 
 
   
-![Resim1](https://i.hizliresim.com/KT3m45.png)
+![Resim1](https://i.hizliresim.com/7091fF.png)
 
   
   
