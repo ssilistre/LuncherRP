@@ -61,7 +61,7 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
  - **LuncherRp.discordMesajYaz("webhooklinki","mesajınız");** //Bu kod ile bir web hook oluşturduktan sonra webhhooklinki daha sonra mesajınızı yazıp göndertebiliyorsunuz.
  - **LuncherRP.steamidgir();** //buda steamid girilmesi gerek yer. Sunucuya özel yapıcaksanız luncherı buna ihtiyacınız olucak.
  - **LuncherRP.onlinekackisi("sunucu ozel no");** //burada sunucuya bağlanıp sunuda kayitli olan kullanicilara bakar test aşamasında. Sunucu özel no yu kendiniz belirtmelisiniz.
- - **LuncherRP.luncherozelgiris("Özel sunucu no");** // https://www.fivemtr.net/misc.php?page=anahtar sunucu
+ - **LuncherRP.luncherozelgiris("Özel sunucu no");** // https://www.fivemtr.net/misc.php?page=anahtar sunucu kayit linki.
  - **LuncherRP.VeriOku("KategoriAdı", "AnahtarAdı");** //ayarlar.ini  dosyasındaki gibi [Luncher]
 Baslik=Luncher adı - Burada kategori adı Luncher anahtar adı ise Baslik bu komut dosyadaki veriyi okumaya yarıyor.
  
@@ -69,7 +69,7 @@ Baslik=Luncher adı - Burada kategori adı Luncher anahtar adı ise Baslik bu ko
   
  Sunucuyu buradan kayit ettirebilirsiniz https://www.fivemtr.net/misc.php?page=anahtar
  
- En sonunda sunucu dosyalarını indirin sunucu dosyalarının içinde ki server.lua aşağıdaki resimdeki alanları düzenleyin.
+ En sonunda sunucu dosyalarını indirin sunucu dosyalarının içinde ki server.lua aşağıdaki resimdeki alanları düzenleyin.Altı kırmızı çizili alana sunucu kayit daki özel idnizi giriniz.
  ![adim3](https://i.hizliresim.com/9mK7ZW.png)
  
  Sunucu dosyalari için https://github.com/ssilistre/LuncherRP/releases/download/V1.0.03/Sunucu_Dosyalari.rar
