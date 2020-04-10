@@ -39,6 +39,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblSayi = new System.Windows.Forms.Label();
             this.discord = new System.Windows.Forms.PictureBox();
+            this.btnSorunGider = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.resimKutusu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.discord)).BeginInit();
             this.SuspendLayout();
@@ -60,10 +61,10 @@
             this.btnOyna.AutoEllipsis = true;
             this.btnOyna.BackColor = System.Drawing.Color.Transparent;
             this.btnOyna.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOyna.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnOyna.Location = new System.Drawing.Point(508, 349);
+            this.btnOyna.ForeColor = System.Drawing.Color.White;
+            this.btnOyna.Location = new System.Drawing.Point(561, 374);
             this.btnOyna.Name = "btnOyna";
-            this.btnOyna.Size = new System.Drawing.Size(174, 42);
+            this.btnOyna.Size = new System.Drawing.Size(121, 42);
             this.btnOyna.TabIndex = 1;
             this.btnOyna.Text = "Oyna";
             this.btnOyna.UseVisualStyleBackColor = false;
@@ -79,7 +80,7 @@
             // 
             this.reklamMetni.AutoSize = true;
             this.reklamMetni.BackColor = System.Drawing.Color.Transparent;
-            this.reklamMetni.Location = new System.Drawing.Point(7, 374);
+            this.reklamMetni.Location = new System.Drawing.Point(429, 337);
             this.reklamMetni.Name = "reklamMetni";
             this.reklamMetni.Size = new System.Drawing.Size(16, 17);
             this.reklamMetni.TabIndex = 2;
@@ -97,10 +98,10 @@
             this.button1.AutoEllipsis = true;
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.Location = new System.Drawing.Point(314, 349);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(432, 374);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(174, 42);
+            this.button1.Size = new System.Drawing.Size(123, 42);
             this.button1.TabIndex = 3;
             this.button1.Text = "SteamID Gir";
             this.button1.UseVisualStyleBackColor = false;
@@ -142,11 +143,26 @@
             this.discord.TabStop = false;
             this.discord.Click += new System.EventHandler(this.discord_Click);
             // 
+            // btnSorunGider
+            // 
+            this.btnSorunGider.AutoEllipsis = true;
+            this.btnSorunGider.BackColor = System.Drawing.Color.Transparent;
+            this.btnSorunGider.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSorunGider.ForeColor = System.Drawing.Color.White;
+            this.btnSorunGider.Location = new System.Drawing.Point(10, 374);
+            this.btnSorunGider.Name = "btnSorunGider";
+            this.btnSorunGider.Size = new System.Drawing.Size(170, 42);
+            this.btnSorunGider.TabIndex = 7;
+            this.btnSorunGider.Text = "Fivem Harita Düzelt";
+            this.btnSorunGider.UseVisualStyleBackColor = false;
+            this.btnSorunGider.Click += new System.EventHandler(this.btnSorunGider_Click);
+            // 
             // Luncher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(691, 404);
+            this.ClientSize = new System.Drawing.Size(691, 423);
+            this.Controls.Add(this.btnSorunGider);
             this.Controls.Add(this.discord);
             this.Controls.Add(this.lblSayi);
             this.Controls.Add(this.label1);
@@ -184,5 +200,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblSayi;
         private System.Windows.Forms.PictureBox discord;
+        private System.Windows.Forms.Button btnSorunGider;
     }
 }
