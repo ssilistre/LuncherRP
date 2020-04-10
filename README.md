@@ -74,7 +74,8 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
 ![RC](https://i.hizliresim.com/cioI2L.png)
 
 **Minimap düzetmesinden sonra:**
-![enter image description here](https://i.hizliresim.com/B2b2lP.png)
+
+![minimap](https://i.hizliresim.com/B2b2lP.png)
 
 
 ### Sunucuyu buradan kayit ettirebilirsiniz https://www.fivemtr.net/misc.php?page=anahtar
