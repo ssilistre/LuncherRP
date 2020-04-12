@@ -67,15 +67,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\fivemLuncher\bin\Debug\fivemLuncher.dll</HintPath>
     </Reference>
-    <Reference Include="MetroFramework">
-      <HintPath>..\..\..\Downloads\Compressed\metroframeworkDLL\MetroFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="MetroFramework.Design">
-      <HintPath>..\..\..\Downloads\Compressed\metroframeworkDLL\MetroFramework.Design.dll</HintPath>
-    </Reference>
-    <Reference Include="MetroFramework.Fonts">
-      <HintPath>..\..\..\Downloads\Compressed\metroframeworkDLL\MetroFramework.Fonts.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>

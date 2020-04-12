@@ -37,7 +37,6 @@ D:\Burası\luncherRP\bin\Debug\LeyjonRPLuncher.exe.config
 D:\Burası\luncherRP\bin\Debug\LeyjonRPLuncher.exe
 D:\Burası\luncherRP\bin\Debug\LeyjonRPLuncher.pdb
 D:\Burası\luncherRP\bin\Debug\Newtonsoft.Json.dll
-D:\Burası\luncherRP\bin\Debug\DotNetZip.dll
 D:\Burası\luncherRP\bin\Debug\Newtonsoft.Json.xml
 D:\Burası\luncherRP\obj\Debug\LeyjonRPLuncher.csprojAssemblyReference.cache
 D:\Burası\luncherRP\obj\Debug\LeyjonRPLuncher.Luncher.resources
@@ -47,3 +46,4 @@ D:\Burası\luncherRP\obj\Debug\LeyjonRPLuncher.csproj.CoreCompileInputs.cache
 D:\Burası\luncherRP\obj\Debug\LeyjonRPLuncher.csproj.CopyComplete
 D:\Burası\luncherRP\obj\Debug\LeyjonRPLuncher.exe
 D:\Burası\luncherRP\obj\Debug\LeyjonRPLuncher.pdb
+D:\Burası\luncherRP\bin\Debug\DotNetZip.dll

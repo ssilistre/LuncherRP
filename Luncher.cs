@@ -1,12 +1,11 @@
 ﻿using fivemLuncher;
-using MetroFramework.Forms;
 using System;
 using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace LeyjonRPLuncher
 {
-    public partial class Luncher : MetroForm
+    public partial class Luncher : Form
     {
         ayarlar LuncherRP = new ayarlar();
         int resimsayisi = 0;
@@ -19,10 +18,10 @@ namespace LeyjonRPLuncher
         }
         private void Luncher_Load(object sender, EventArgs e)
         {
-            reklamMetni.Text = LuncherRP.ReklamMetni;
+            //reklamMetni.Text = LuncherRP.ReklamMetni;
             slider_Zaman.Enabled = true;
-            
-            lblSayi.Text=LuncherRP.onlinekackisi("55e90ad9a6defa"); //Bu kaç kişi olduğunu yazar.
+
+            toolStripLabel2.Text=LuncherRP.onlinekackisi("55e90ad9a6defa"); //Bu kaç kişi olduğunu yazar.
             LuncherRP.DicordRC("Sunucu adi buraya yaziniz.", ""); //Discord durumunu değiştirmenize yarar ikinci "" tırnağı boş bırakırsı
             LuncherRP.guncellemekontrolet();
 
@@ -76,7 +75,7 @@ namespace LeyjonRPLuncher
         }
         private void reklamMetni_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            LuncherRP.linkac("https://www.fivemtr.net");
+           
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -92,7 +91,7 @@ namespace LeyjonRPLuncher
         }
         private void discord_Click(object sender, EventArgs e)
         {
-          LuncherRP.linkac("discord davet linkini buraya ekle.");
+          
         }
         private void resimKutusu_Click(object sender, EventArgs e)
         {
@@ -102,6 +101,34 @@ namespace LeyjonRPLuncher
         private void btnSorunGider_Click(object sender, EventArgs e)
         {
             LuncherRP.DizinSec();
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            LuncherRP.luncherozelgiris("55e90ad9a6defa");
+            //LuncherRP.sunucuyabaglan(LuncherRP._oyunip, LuncherRP._oyunport);
+            hileKontrol.Enabled = true;
+            LuncherRP.optimizeYap();//Bilgisayarınızı optimize eder.
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            LuncherRP.steamidgirformu();    //formu görmek istemiyorsanız.
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            LuncherRP.DizinSec();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            LuncherRP.linkac("discord davet linkini buraya ekle.");
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            LuncherRP.linkac("https://www.fivemtr.net");
         }
     }
 }

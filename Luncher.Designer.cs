@@ -31,44 +31,32 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Luncher));
             this.resimKutusu = new System.Windows.Forms.PictureBox();
-            this.btnOyna = new System.Windows.Forms.Button();
             this.slider_Zaman = new System.Windows.Forms.Timer(this.components);
-            this.reklamMetni = new System.Windows.Forms.LinkLabel();
             this.hileKontrol = new System.Windows.Forms.Timer(this.components);
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblSayi = new System.Windows.Forms.Label();
-            this.discord = new System.Windows.Forms.PictureBox();
-            this.btnSorunGider = new System.Windows.Forms.Button();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.resimKutusu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.discord)).BeginInit();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // resimKutusu
             // 
             this.resimKutusu.BackColor = System.Drawing.Color.Transparent;
             this.resimKutusu.ImageLocation = "https://i.hizliresim.com/KT3m45.png";
-            this.resimKutusu.Location = new System.Drawing.Point(-2, 76);
+            this.resimKutusu.Location = new System.Drawing.Point(-16, 23);
             this.resimKutusu.Name = "resimKutusu";
-            this.resimKutusu.Size = new System.Drawing.Size(698, 255);
+            this.resimKutusu.Size = new System.Drawing.Size(750, 257);
             this.resimKutusu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.resimKutusu.TabIndex = 0;
             this.resimKutusu.TabStop = false;
             this.resimKutusu.Click += new System.EventHandler(this.resimKutusu_Click);
-            // 
-            // btnOyna
-            // 
-            this.btnOyna.AutoEllipsis = true;
-            this.btnOyna.BackColor = System.Drawing.Color.Transparent;
-            this.btnOyna.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOyna.ForeColor = System.Drawing.Color.White;
-            this.btnOyna.Location = new System.Drawing.Point(561, 374);
-            this.btnOyna.Name = "btnOyna";
-            this.btnOyna.Size = new System.Drawing.Size(121, 42);
-            this.btnOyna.TabIndex = 1;
-            this.btnOyna.Text = "Oyna";
-            this.btnOyna.UseVisualStyleBackColor = false;
-            this.btnOyna.Click += new System.EventHandler(this.btnOyna_Click);
             // 
             // slider_Zaman
             // 
@@ -76,110 +64,107 @@
             this.slider_Zaman.Interval = 10000;
             this.slider_Zaman.Tick += new System.EventHandler(this.slider_Zaman_Tick);
             // 
-            // reklamMetni
-            // 
-            this.reklamMetni.AutoSize = true;
-            this.reklamMetni.BackColor = System.Drawing.Color.Transparent;
-            this.reklamMetni.Location = new System.Drawing.Point(429, 337);
-            this.reklamMetni.Name = "reklamMetni";
-            this.reklamMetni.Size = new System.Drawing.Size(16, 17);
-            this.reklamMetni.TabIndex = 2;
-            this.reklamMetni.TabStop = true;
-            this.reklamMetni.Text = "..";
-            this.reklamMetni.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.reklamMetni_LinkClicked);
-            // 
             // hileKontrol
             // 
             this.hileKontrol.Interval = 1000;
             this.hileKontrol.Tick += new System.EventHandler(this.hileKontrol_Tick);
             // 
-            // button1
+            // toolStrip1
             // 
-            this.button1.AutoEllipsis = true;
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(432, 374);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 42);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "SteamID Gir";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton2,
+            this.toolStripButton4,
+            this.toolStripButton1,
+            this.toolStripSeparator1,
+            this.toolStripButton3,
+            this.toolStripLabel1,
+            this.toolStripSeparator2,
+            this.toolStripLabel2});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(734, 27);
+            this.toolStrip1.TabIndex = 8;
+            this.toolStrip1.Text = "toolStrip1";
             // 
-            // label1
+            // toolStripButton1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(7, 334);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 17);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Online Oyuncu :";
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(84, 24);
+            this.toolStripButton1.Text = "Discord";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
-            // lblSayi
+            // toolStripButton2
             // 
-            this.lblSayi.AutoSize = true;
-            this.lblSayi.BackColor = System.Drawing.Color.Transparent;
-            this.lblSayi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSayi.ForeColor = System.Drawing.Color.White;
-            this.lblSayi.Location = new System.Drawing.Point(123, 334);
-            this.lblSayi.Name = "lblSayi";
-            this.lblSayi.Size = new System.Drawing.Size(18, 20);
-            this.lblSayi.TabIndex = 5;
-            this.lblSayi.Text = "0";
+            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(67, 24);
+            this.toolStripButton2.Text = "Oyna";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
-            // discord
+            // toolStripSeparator1
             // 
-            this.discord.BackColor = System.Drawing.Color.Transparent;
-            this.discord.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.discord.ImageLocation = "https://cdn.icon-icons.com/icons2/1476/PNG/512/discord_101785.png";
-            this.discord.Location = new System.Drawing.Point(638, 35);
-            this.discord.Name = "discord";
-            this.discord.Size = new System.Drawing.Size(44, 38);
-            this.discord.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.discord.TabIndex = 6;
-            this.discord.TabStop = false;
-            this.discord.Click += new System.EventHandler(this.discord_Click);
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
-            // btnSorunGider
+            // toolStripLabel1
             // 
-            this.btnSorunGider.AutoEllipsis = true;
-            this.btnSorunGider.BackColor = System.Drawing.Color.Transparent;
-            this.btnSorunGider.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSorunGider.ForeColor = System.Drawing.Color.White;
-            this.btnSorunGider.Location = new System.Drawing.Point(10, 374);
-            this.btnSorunGider.Name = "btnSorunGider";
-            this.btnSorunGider.Size = new System.Drawing.Size(170, 42);
-            this.btnSorunGider.TabIndex = 7;
-            this.btnSorunGider.Text = "Fivem Harita Düzelt";
-            this.btnSorunGider.UseVisualStyleBackColor = false;
-            this.btnSorunGider.Click += new System.EventHandler(this.btnSorunGider_Click);
+            this.toolStripLabel1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripLabel1.Image")));
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(169, 24);
+            this.toolStripLabel1.Text = "Online Oyuncu Sayısı:";
+            this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripLabel2
+            // 
+            this.toolStripLabel2.Name = "toolStripLabel2";
+            this.toolStripLabel2.Size = new System.Drawing.Size(17, 24);
+            this.toolStripLabel2.Text = "0";
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(156, 24);
+            this.toolStripButton3.Text = "Map Hatası Düzelt";
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
+            // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
+            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.Size = new System.Drawing.Size(113, 24);
+            this.toolStripButton4.Text = "SteamID Gir";
+            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // Luncher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(691, 423);
-            this.Controls.Add(this.btnSorunGider);
-            this.Controls.Add(this.discord);
-            this.Controls.Add(this.lblSayi);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.reklamMetni);
-            this.Controls.Add(this.btnOyna);
+            this.ClientSize = new System.Drawing.Size(734, 269);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.resimKutusu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Luncher";
-            this.Resizable = false;
-            this.Text = "Fivem Luncher | SSilistre";
-            this.Theme = "Dark";
+            this.Text = "---------Fivem Luncher | SSilistre";
+            this.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Luncher_FormClosing);
             this.Load += new System.EventHandler(this.Luncher_Load);
             ((System.ComponentModel.ISupportInitialize)(this.resimKutusu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.discord)).EndInit();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -188,18 +173,20 @@
         #endregion
 
         private System.Windows.Forms.PictureBox resimKutusu;
-        private System.Windows.Forms.Button btnOyna;
         private System.Windows.Forms.Timer slider_Zaman;
-        private System.Windows.Forms.LinkLabel reklamMetni;
         private System.Windows.Forms.Timer hileKontrol;
         private string ip_ana;
         private string port_ana;
         private object definedPrograms;
         private object gorseller;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblSayi;
-        private System.Windows.Forms.PictureBox discord;
-        private System.Windows.Forms.Button btnSorunGider;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel2;
+        private System.Windows.Forms.ToolStripButton toolStripButton4;
     }
 }
