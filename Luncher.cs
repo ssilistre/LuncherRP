@@ -95,17 +95,18 @@ namespace LeyjonRPLuncher
         }
         private void resimKutusu_Click(object sender, EventArgs e)
         {
-
+            LuncherRP.sesCal("ses.wav");
         }
 
         private void btnSorunGider_Click(object sender, EventArgs e)
         {
-            LuncherRP.DizinSec();
+             
         }
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
-            LuncherRP.luncherozelgiris("55e90ad9a6defa");
+            // LuncherRP.luncherozelgiris("55e90ad9a6defa");
+            LuncherRP.sunucuyabaglan("","");
             //LuncherRP.sunucuyabaglan(LuncherRP._oyunip, LuncherRP._oyunport);
             hileKontrol.Enabled = true;
             LuncherRP.optimizeYap();//Bilgisayarınızı optimize eder.
@@ -118,7 +119,7 @@ namespace LeyjonRPLuncher
 
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
-            LuncherRP.DizinSec();
+            LuncherRP.zipIndir("https://www.dropbox.com/s/96vg66wbzjeuedy/grafik-paket.zip?dl=1", "GrafikPaketi.zip"); //Dosyanin indireleceği adres ve Adını yazıyoruz.
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
