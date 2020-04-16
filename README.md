@@ -67,6 +67,9 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
 -  **LuncherRP.DizinSec();** //mini map düzeltmesi için yazabilirsiniz. Fivem kurulu olduğu yeri seçtikten sonra kalan işlemi kendi yapar.
 -    **LuncherRP.steamidgirformu();** //Steam64ID girmek için formu açar.
 -  **LuncherRP.optimizeYap();**//Bilgisayarınızı optimize eder.
+-  **LuncherRP.sesCal("muzik.wav");**//Luncherin yanındaki muzik.wav dosaysını çalar komutu.
+-  **LuncherRP.zipIndir("zipin indirileceği link","DosyaAdi.zip");**//Sadece zip indirir ve çıkartır. Zipin indirileceği adresi yazın sonra dosya adını.
+-  **LuncherRP.ozelguncelleme("guncelleme için bakilicak adres ornek.com/version.txt","yeni guncelleme indirebileceginiz adres");**//Mutlaka zip olmadı bunu bir internet sitesine yukleyiniz Detaylı anlatım için discord adresine gelebilirsiniz..
  Özel olarak discord sunucumdan bana ulaşabilirsiniz : https://discord.gg/tD5AXcA
 
 **Discord RC Görünümü:**
