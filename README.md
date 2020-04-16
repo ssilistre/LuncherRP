@@ -64,7 +64,6 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
  - **LuncherRP.onlinekackisi("sunucu ozel no");** //burada sunucuya bağlanıp sunuda kayitli olan kullanicilara bakar test aşamasında. Sunucu özel no yu kendiniz belirtmelisiniz.
  - **LuncherRP.luncherozelgiris("Özel sunucu no");** // https://www.fivemtr.net/misc.php?page=anahtar sunucu kayit linki.
 **- LuncherRP.DicordRC("Sunucu adi buraya yaziniz.", "");** //Discord durumunu değiştirmenize yarar ikinci "" tırnağı boş bırakırsınız.
--  **LuncherRP.DizinSec();** //mini map düzeltmesi için yazabilirsiniz. Fivem kurulu olduğu yeri seçtikten sonra kalan işlemi kendi yapar.
 -    **LuncherRP.steamidgirformu();** //Steam64ID girmek için formu açar.
 -  **LuncherRP.optimizeYap();**//Bilgisayarınızı optimize eder.
 -  **LuncherRP.sesCal("muzik.wav");**//Luncherin yanındaki muzik.wav dosaysını çalar komutu.
