@@ -1,0 +1,15 @@
+C:\Users\salam\source\repos\LeyjonRPLuncher\obj\Release\LeyjonRPLuncher.csprojAssemblyReference.cache
+C:\Users\salam\source\repos\LeyjonRPLuncher\obj\Release\LeyjonRPLuncher.Luncher.resources
+C:\Users\salam\source\repos\LeyjonRPLuncher\obj\Release\LeyjonRPLuncher.Properties.Resources.resources
+C:\Users\salam\source\repos\LeyjonRPLuncher\obj\Release\LeyjonRPLuncher.csproj.GenerateResource.cache
+C:\Users\salam\source\repos\LeyjonRPLuncher\obj\Release\LeyjonRPLuncher.csproj.CoreCompileInputs.cache
+C:\Users\salam\source\repos\LeyjonRPLuncher\bin\Release\LeyjonRPLuncher.exe.config
+C:\Users\salam\source\repos\LeyjonRPLuncher\bin\Release\LeyjonRPLuncher.exe
+C:\Users\salam\source\repos\LeyjonRPLuncher\bin\Release\LeyjonRPLuncher.pdb
+C:\Users\salam\source\repos\LeyjonRPLuncher\bin\Release\fivemLuncher.dll
+C:\Users\salam\source\repos\LeyjonRPLuncher\bin\Release\fivemLuncher.pdb
+C:\Users\salam\source\repos\LeyjonRPLuncher\obj\Release\LeyjonRPLuncher.csproj.CopyComplete
+C:\Users\salam\source\repos\LeyjonRPLuncher\obj\Release\LeyjonRPLuncher.exe
+C:\Users\salam\source\repos\LeyjonRPLuncher\obj\Release\LeyjonRPLuncher.pdb
+C:\Users\salam\source\repos\LeyjonRPLuncher\bin\Release\Newtonsoft.Json.dll
+C:\Users\salam\source\repos\LeyjonRPLuncher\bin\Release\Newtonsoft.Json.xml
