@@ -103,5 +103,5 @@ Yukarıdaki komutları kullanarak kendi tasarımızı da geliştirmeniz mümkün
   
 **Github projesi linki** : [https://github.com/ssilistre/LuncherRP](https://github.com/ssilistre/LuncherRP)
 
-![Durum](https://hizliresim.com/tfKOMN)
+![Durum2](https://i.hizliresim.com/tfKOMN.png)
 
