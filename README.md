@@ -8,7 +8,7 @@ Yeni Tanıtım Videosu: https://youtu.be/5Ccpd3Cq-No
 Eski Youtube anlatımı için: https://www.youtube.com/watch?v=FcHfcvAY8CU
 
 ## Sunucu Kayıt için = http://panel.fivemcode.com
-![Resim1](https://i.hizliresim.com/7091fF.png)
+![Resim1](https://i.hizliresim.com/ovkqDs.png)
 
   
 Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda minik bir kütüphane ile bağladım.  Minik kütüphaneyide web panele bağladım fivemcode.com ortaya çıktı.
