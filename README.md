@@ -8,7 +8,7 @@ Yeni Tanıtım Videosu: https://youtu.be/5Ccpd3Cq-No
 Eski Youtube anlatımı için: https://www.youtube.com/watch?v=FcHfcvAY8CU
 
 ## Sunucu Kayıt için = http://panel.fivemcode.com
-![Resim1](https://i.hizliresim.com/W48JsG.png)
+![Resim1](https://i.hizliresim.com/7091fF.png)
 
   
 Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda minik bir kütüphane ile bağladım.  Minik kütüphaneyide web panele bağladım fivemcode.com ortaya çıktı.
@@ -90,6 +90,13 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
  ![Lua görüntüsü](https://i.hizliresim.com/HARCP9.png)
  
  **Sunucu dosyalari için** https://github.com/ssilistre/LuncherRP/releases/download/V1.0.0.7/yeni_Sunucu_Dosyalari.rar
+
+
+**Sunucu Durum Görüntüsü**
+
+
+![Durum](https://i.hizliresim.com/g9mQdf.png)
+
 
 Sorunlar olabilir bana yazarak iletebilirsiniz. Eklenmesini istediğiniz şeyler olabilir onları da iletebilirsiniz. Ücretsiz arkadaşlar üstüne sizde geliştirme ekleyebilirsiniz.  
 Yukarıdaki komutları kullanarak kendi tasarımızı da geliştirmeniz mümkün. Burada ki hile algoritması %100 sonuç vermeyebilir , engelleyecektir. Minik bir denemeyi cheatengine ile yapabilirsiniz.  
