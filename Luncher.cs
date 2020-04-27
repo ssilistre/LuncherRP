@@ -12,7 +12,9 @@ namespace LeyjonRPLuncher
     public partial class Luncher : Form
     {
         lib rp = new lib();
-       
+        String serverkey = "5ea5fc0139789";
+        String DiscordRCSunucuAD = "Sunucu Adınız";
+        String DiscordRCAltMesaj = "AltMesajınız.";
         public Luncher()
         {
             //****************************************
@@ -22,7 +24,7 @@ namespace LeyjonRPLuncher
         private void Luncher_Load(object sender, EventArgs e)
         {
          
-            rp.serverinfos("5ea5fc0139789"); //this command will be check all server infos for online count & ip adress port.
+            rp.serverinfos(serverkey); //this command will be check all server infos for online count & ip adress port.
             this.TransparencyKey = Color.LightGreen;
             this.BackColor = Color.LightGreen;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -30,7 +32,7 @@ namespace LeyjonRPLuncher
             lblduyurumetni.Text = rp.duyurular; //news
             lblSayi.Text = rp.kisiSayisi; //player count
             lblStatu.Text = rp.sunucuDurum; //server status
-            rp.DicordRC("11111", "1111"); //Discord RC
+            rp.DicordRC(DiscordRCSunucuAD, DiscordRCAltMesaj); //Discord RC
             if (lblStatu.Text=="online")
             {
                 lblStatu.ForeColor = Color.Green;
@@ -39,7 +41,7 @@ namespace LeyjonRPLuncher
             {
                 lblStatu.ForeColor = Color.Red;
             }
-            Steamusername.Text = rp.SteamUserName; 
+            Steamusername.Text = rp.SteamUserName; //Steam name.
         }
         private void Luncher_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -55,7 +57,7 @@ namespace LeyjonRPLuncher
 
         private void btnOyna_Click(object sender, EventArgs e)
         {
-            rp.connectWithOutWhitelist("5ea5fc0139789"); //İf use whitelist panel.fivemcode.com used this block.
+            rp.connectWithOutWhitelist(serverkey); //İf use whitelist panel.fivemcode.com used this block.
             //rp.connectWithOutWhitelist("5ea41ddb8a15b"); //without whitlist use this block.
            // rp.connectFivem("İp Number", "Port Number"); //if just connect server pls use this block.
             hileKontrol.Enabled = true;
@@ -109,7 +111,7 @@ namespace LeyjonRPLuncher
 
         private void button1_Click(object sender, EventArgs e)
         {
-            rp.connectwithWhiteList("5ea5fc0139789");
+            rp.connectwithWhiteList(serverkey);
         }
     }
 }

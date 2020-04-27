@@ -72,14 +72,15 @@
             this.btnOyna.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnOyna.ForeColor = System.Drawing.Color.DarkOrange;
             this.btnOyna.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOyna.Location = new System.Drawing.Point(429, 272);
+            this.btnOyna.Location = new System.Drawing.Point(429, 262);
             this.btnOyna.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOyna.Name = "btnOyna";
             this.btnOyna.Size = new System.Drawing.Size(248, 53);
             this.btnOyna.TabIndex = 0;
-            this.btnOyna.Text = "OynaWhitelistolmadan";
+            this.btnOyna.Text = "Normal Giriş";
             this.btnOyna.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnOyna.UseVisualStyleBackColor = false;
+            this.btnOyna.Visible = false;
             this.btnOyna.Click += new System.EventHandler(this.btnOyna_Click);
             // 
             // imageLogo
@@ -296,12 +297,12 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.Color.DarkOrange;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(242, 272);
+            this.button1.Location = new System.Drawing.Point(242, 262);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(181, 53);
             this.button1.TabIndex = 14;
-            this.button1.Text = "whitelistile";
+            this.button1.Text = "Whitelist";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
