@@ -102,3 +102,6 @@ Sorunlar olabilir bana yazarak iletebilirsiniz. Eklenmesini istediğiniz şeyler
 Yukarıdaki komutları kullanarak kendi tasarımızı da geliştirmeniz mümkün. Burada ki hile algoritması %100 sonuç vermeyebilir , engelleyecektir. Minik bir denemeyi cheatengine ile yapabilirsiniz.  
   
 **Github projesi linki** : [https://github.com/ssilistre/LuncherRP](https://github.com/ssilistre/LuncherRP)
+
+![Durum](https://hizliresim.com/tfKOMN)
+
