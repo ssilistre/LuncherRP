@@ -28,6 +28,8 @@ Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda mi
 -Otomatik steam id ve steam adını alır uygulama
 
 **Yeni Standart Tarz**
+
+
 ![Goruntu](https://i.hizliresim.com/qZ4b71.png)
   
   
