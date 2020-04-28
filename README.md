@@ -1,20 +1,17 @@
 
+
 # LuncherRP
 Open Source Fivem Luncher Library
 
-Youtube anlatımı için: https://www.youtube.com/watch?v=FcHfcvAY8CU
 
-https://www.fivemtr.net/misc.php?page=anahtar
+Yeni Tanıtım Videosu: https://youtu.be/5Ccpd3Cq-No
+Eski Youtube anlatımı için: https://www.youtube.com/watch?v=FcHfcvAY8CU
 
-
-
-
-  
-![Resim1](https://i.hizliresim.com/7091fF.png)
+## Sunucu Kayıt için = http://panel.fivemcode.com
+![Resim1](https://i.hizliresim.com/ovkqDs.png)
 
   
-  
-Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda minik bir kütüphane ile bağladım.  
+Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda minik bir kütüphane ile bağladım.  Minik kütüphaneyide web panele bağladım fivemcode.com ortaya çıktı.
 İsteyen arkadaşlar ücretsiz bir şekilde istedikleri tasarımı giydirerek üzerinde düzenleme yapabilir.  
   
 **Bir takım özellikler;**  
@@ -25,8 +22,15 @@ Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda mi
 -Discord üstünden mesaj gönderebilme
 -Online sunucudaki üyelerin sayısını görebilme
 -Lunchersız girişi kapatabilme
-  
+-Whitelist özelliği ile üyeleri yönetebilme
+-Web panelden güncelleme yayınlama
+-Web panelden duyurular yayınlama
+-Otomatik steam id ve steam adını alır uygulama
 
+**Yeni Standart Tarz**
+
+
+![Goruntu](https://i.hizliresim.com/qZ4b71.png)
   
   
 Projeyi github adresimden indirip üzerinde düzenleme yapabilirsiniz(Bu yol ile çok hızlı ilerleme kaydedebilirsiniz). Birden fazla kişi aynı özelliği isterse ekleyebilirim.  
@@ -36,11 +40,9 @@ Eğer projeyi indirip düzenlerseniz aşağıdaki 3 adımı yapmanıza gerek yok
    ![Adim1](https://s6.gifyu.com/images/adim1.gif)
   
 **Adım 2** = Aşağıda ki kodu form.cs eklemelisiniz.  
-![adim2](https://i.hizliresim.com/4S6xOh.png)
-
   
 Kopyala yapıştır yapmak için :  
-ayarlar LuncherRp = new ayarlar();  
+**lib rp = new lib();**  
   
 **Adım 3** = Usingler kımına aşağıdaki kodu eklemek:  
 using fivemLuncher;  
@@ -53,41 +55,53 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
   
 **Kullanabileceğiniz komutlar:**  
 
- -   **LuncherRP.servisKontrol();** //olmazsa olmazınız bu hile algoritmasını sürüm bilgisini güncellemek için kullanılıyor. Mutlaka bir yerlere yazmalısınız yoksa hile algoritması çalışmayacaktır.
- -   **LuncherRP.sunucuyabaglan("İp Numarasi", "PortNo");** //adından anlaşıldığı üzere sunucu ip adresinizi ve portunuzu buraya yazıyorsunuz. Tetiklendiğinde sunucuya bağlanıyor.
- -   **LuncherRP.hileDurdur();**//olmazsa olmazlarınızdan hile kontrolü yapıyor. 1 kere yapar bunu o yüzden timer atayabilirsiniz.
- -   **LuncherRP.linkac("[Google](https://www.google.com/)");** //tetiklendiğinde herhangi bir link açar. Ben bunu discord için kullanıyorum.
- -   **LuncherRP.guncellemekontrolet();** //bu kitaplığın güncel mi değil mi olduğunu size söyleyen kod parçası.
- -   **LuncherRP.kapatProgrami();** // Bu komut tetiklendiğinde fivem kapatıyor. Daha fazla önlem almak isterseniz size kalmış oluyor.
- - **LuncherRp.discordMesajYaz("webhooklinki","mesajınız");** //Bu kod ile bir web hook oluşturduktan sonra webhhooklinki daha sonra mesajınızı yazıp göndertebiliyorsunuz.
- - **LuncherRP.steamidgir();** //buda steamid girilmesi gerek yer. Sunucuya özel yapıcaksanız luncherı buna ihtiyacınız olucak.
- - **LuncherRP.onlinekackisi("sunucu ozel no");** //burada sunucuya bağlanıp sunuda kayitli olan kullanicilara bakar test aşamasında. Sunucu özel no yu kendiniz belirtmelisiniz.
- - **LuncherRP.luncherozelgiris("Özel sunucu no");** // https://www.fivemtr.net/misc.php?page=anahtar sunucu kayit linki.
-**- LuncherRP.DicordRC("Sunucu adi buraya yaziniz.", "");** //Discord durumunu değiştirmenize yarar ikinci "" tırnağı boş bırakırsınız.
--    **LuncherRP.steamidgirformu();** //Steam64ID girmek için formu açar.
--  **LuncherRP.optimizeYap();**//Bilgisayarınızı optimize eder.
--  **LuncherRP.sesCal("muzik.wav");**//Luncherin yanındaki muzik.wav dosaysını çalar komutu.
--  **LuncherRP.zipIndir("zipin indirileceği link","DosyaAdi.zip");**//Sadece zip indirir ve çıkartır. Zipin indirileceği adresi yazın sonra dosya adını.
--  **LuncherRP.ozelguncelleme("guncelleme için bakilicak adres ornek.com/version.txt","yeni guncelleme indirebileceginiz adres");**//Mutlaka zip olmadı bunu bir internet sitesine yukleyiniz Detaylı anlatım için discord adresine gelebilirsiniz..
+ - rp.serverinfos("serverkey") //Bu size özel sunucu keyinizle bilgilerinizi çeken komut.
+ - rp.kisiSayisi;// (Bu string değerdir online kişi sayısı bilgini barındırır.)
+ - rp.sunucuDurum;// (Bu string değer sunucunuzun durumunu barındırır.)
+ - rp.DiscordRC("ilk mesaj" , "ikinci mesaj"); //Bu aşağıdaki discord rc görünümün ilk satırı ve ikinci satırıdır.
+ - rp.SteamUserName; //(Bu string değer bizim kullanıcı adımızı barındırır.)
+ - rp.stopHacks(); //Hile algoritmasını çalıştırır. 1 kere çalıştırır. Sürekli olması için timer içine eklemelisiniz.
+ - rp.ConnectWithOutWhitelist("serverkey"); //Bu komut luancher olmadan sunucuya girişi imkansız kılmaktadır.
+ - rp.ConnectWithWhitelist("serverkey"); //Bu komut ise luancher kontrolü yapar fakat whitelistede bakar. Whitelist için panel.fivemcode.com bakabilirsiniz.
+ - rp.ConnectFivem("ipadres" , "port numarası"); //normal bağlantı komutu
+ - rp.Cachedelete(); //Cache dosyalarını temizleyen komut.
+ - rp.closeFivem();  //Fivemi kapatır bu komut.
+ - rp.open("discord"); //discord açar ts açar artık ne istiyorsanız onu açar bu komut.
+ - rp.PlaySound("müzik.mp4"); //müzik mp4 adındaki şarkıyı çalar bu komut.
+ - rp.ownUpdate("version url" , "indirilicek dosyanın adresi"); // bu komut verion txt içine bakıp yeni güncelleme indirir.
+ - rp.zipDownload("indirilicek zip adresi","zipin adı"); // Bu komut zip dosya indirip onu seçilen yere çıkartır.
+ - rp.duyurular; //(Bu komut string olarak duyurular yazısını barındırır.)
+ - rp.steamidgirformu(); //(Bu komut steamid girme formunu açtırır)
+ - rp.steamid64("buraya steam 64 idsi"); //Bu alana steam 64 idi vererek steamhex idisini alabilirsiniz.
+ 
+
  Özel olarak discord sunucumdan bana ulaşabilirsiniz : https://discord.gg/tD5AXcA
 
 **Discord RC Görünümü:**
   
 ![RC](https://i.hizliresim.com/cioI2L.png)
 
-**Minimap düzetmesinden sonra:**
-
-![minimap](https://i.hizliresim.com/B2b2lP.png)
 
 
-### Sunucuyu buradan kayit ettirebilirsiniz https://www.fivemtr.net/misc.php?page=anahtar
+
+### Sunucuyu buradan kayit ettirebilirsiniz https://panel.fivemcode.com
  
  En sonunda sunucu dosyalarını indirin sunucu dosyalarının içinde ki server.lua aşağıdaki resimdeki alanları düzenleyin.Altı kırmızı çizili alana sunucu kayit daki özel idnizi giriniz.
- ![adim3](https://i.hizliresim.com/9mK7ZW.png)
+ ![Lua görüntüsü](https://i.hizliresim.com/HARCP9.png)
  
- **Sunucu dosyalari için** https://github.com/ssilistre/LuncherRP/releases/download/V1.0.03/Sunucu_Dosyalari.rar
+ **Sunucu dosyalari için** https://github.com/ssilistre/LuncherRP/releases/download/V1.0.0.7/yeni_Sunucu_Dosyalari.rar
+
+
+**Sunucu Durum Görüntüsü**
+
+
+![Durum](https://i.hizliresim.com/g9mQdf.png)
+
 
 Sorunlar olabilir bana yazarak iletebilirsiniz. Eklenmesini istediğiniz şeyler olabilir onları da iletebilirsiniz. Ücretsiz arkadaşlar üstüne sizde geliştirme ekleyebilirsiniz.  
 Yukarıdaki komutları kullanarak kendi tasarımızı da geliştirmeniz mümkün. Burada ki hile algoritması %100 sonuç vermeyebilir , engelleyecektir. Minik bir denemeyi cheatengine ile yapabilirsiniz.  
   
 **Github projesi linki** : [https://github.com/ssilistre/LuncherRP](https://github.com/ssilistre/LuncherRP)
+
+![Durum2](https://i.hizliresim.com/tfKOMN.png)
+
