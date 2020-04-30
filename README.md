@@ -89,7 +89,7 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
  En sonunda sunucu dosyalarını indirin sunucu dosyalarının içinde ki server.lua aşağıdaki resimdeki alanları düzenleyin.Altı kırmızı çizili alana sunucu kayit daki özel idnizi giriniz.
  ![Lua görüntüsü](https://i.hizliresim.com/HARCP9.png)
  
- **Sunucu dosyalari için** https://github.com/ssilistre/LuncherRP/releases/download/V1.0.0.7/yeni_Sunucu_Dosyalari.rar
+ **Sunucu dosyalari için** https://github.com/ssilistre/LuncherRP/releases/download/V1.0.0.7/SunucuDosyasiMayis.rar
 
 
 **Sunucu Durum Görüntüsü**
