@@ -1,0 +1,12 @@
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\bin\Debug\BasicLuancher.exe
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\bin\Debug\BasicLuancher.pdb
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\bin\Debug\fivemLuncher.dll
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\bin\Debug\Newtonsoft.Json.dll
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLuancher.csprojAssemblyReference.cache
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLuancher.Form1.resources
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLuancher.Properties.Resources.resources
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLuancher.csproj.GenerateResource.cache
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLuancher.csproj.CoreCompileInputs.cache
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLuancher.csproj.CopyComplete
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLuancher.exe
+C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLuancher.pdb
