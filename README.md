@@ -68,7 +68,9 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
 
 En sonunda sunucu dosyalarını indirin sunucu dosyalarının içinde ki server.lua aşağıdaki resimdeki alanları düzenleyin.Altı kırmızı çizili alana sunucu kayit daki özel idnizi giriniz.  [![Lua görüntüsü](https://camo.githubusercontent.com/235571a8fdca0388588f77c007802647d4357b7a/68747470733a2f2f692e68697a6c69726573696d2e636f6d2f4841524350392e706e67)](https://camo.githubusercontent.com/235571a8fdca0388588f77c007802647d4357b7a/68747470733a2f2f692e68697a6c69726573696d2e636f6d2f4841524350392e706e67)
 
-**Sunucu dosyalari için**  [https://github.com/ssilistre/LuncherRP/releases/download/V1.0.0.7/yeni_Sunucu_Dosyalari.rar](https://github.com/ssilistre/LuncherRP/releases/download/V1.0.0.7/yeni_Sunucu_Dosyalari.rar)
+**Sunucu dosyalari için**  [https://github.com/ssilistre/LuncherRP/releases/download/V1.0.0.8/FiveMCode.com.rar](https://github.com/ssilistre/LuncherRP/releases/download/V1.0.0.8/FiveMCode.com.rar)
+
+Not bir bağlantı sorunu yaşarsanız lua nın içindeki api='' yazan yere 2 veya 3 yazınız.
 
 Sorunlar olabilir bana yazarak iletebilirsiniz. Eklenmesini istediğiniz şeyler olabilir onları da iletebilirsiniz. Ücretsiz arkadaşlar üstüne sizde geliştirme ekleyebilirsiniz.  
 Yukarıdaki komutları kullanarak kendi tasarımızı da geliştirmeniz mümkün. Burada ki hile algoritması %100 sonuç vermeyebilir , engelleyecektir. Minik bir denemeyi cheatengine ile yapabilirsiniz.
