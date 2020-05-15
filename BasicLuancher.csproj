@@ -34,7 +34,7 @@
   <ItemGroup>
     <Reference Include="fivemLuncher, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Downloads\Compressed\LuncherRPDLL-master\LuncherRPDLL-master\Luancher\Luancher\bin\Debug\fivemLuncher.dll</HintPath>
+      <HintPath>C:\Users\salam\Desktop\fivemLuncher\bin\Debug\fivemLuncher.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -77,6 +77,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Users\salam\Desktop\fivemLuncher\bin\Debug\fivemLuncher.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

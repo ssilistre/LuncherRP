@@ -10,3 +10,19 @@ C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLua
 C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLuancher.csproj.CopyComplete
 C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLuancher.exe
 C:\Users\salam\AppData\Local\Temporary Projects\BasicLuancher\obj\Debug\BasicLuancher.pdb
+D:\Burası\luncherRP\bin\Debug\BasicLuancher.exe
+D:\Burası\luncherRP\bin\Debug\BasicLuancher.pdb
+D:\Burası\luncherRP\bin\Debug\fivemLuncher.dll
+D:\Burası\luncherRP\bin\Debug\Newtonsoft.Json.dll
+D:\Burası\luncherRP\bin\Debug\DiscordRPC.dll
+D:\Burası\luncherRP\bin\Debug\fivemLuncher.pdb
+D:\Burası\luncherRP\bin\Debug\fivemLuncher.dll.config
+D:\Burası\luncherRP\bin\Debug\DiscordRPC.pdb
+D:\Burası\luncherRP\bin\Debug\DiscordRPC.xml
+D:\Burası\luncherRP\obj\Debug\BasicLuancher.Form1.resources
+D:\Burası\luncherRP\obj\Debug\BasicLuancher.Properties.Resources.resources
+D:\Burası\luncherRP\obj\Debug\BasicLuancher.csproj.GenerateResource.cache
+D:\Burası\luncherRP\obj\Debug\BasicLuancher.csproj.CoreCompileInputs.cache
+D:\Burası\luncherRP\obj\Debug\BasicLuancher.csproj.CopyComplete
+D:\Burası\luncherRP\obj\Debug\BasicLuancher.exe
+D:\Burası\luncherRP\obj\Debug\BasicLuancher.pdb
