@@ -250,7 +250,7 @@
             // 
             // hileKoruma
             // 
-            this.hileKoruma.Interval = 5000;
+            this.hileKoruma.Interval = 20000;
             this.hileKoruma.Tick += new System.EventHandler(this.hileKoruma_Tick);
             // 
             // travisoynat

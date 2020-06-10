@@ -66,8 +66,9 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="fivemLuncher">
-      <HintPath>C:\Users\ergoc\Desktop\fivemLuncher.dll</HintPath>
+    <Reference Include="fivemLuncher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\fivemLuncher.dll</HintPath>
     </Reference>
     <Reference Include="JDragControl">
       <HintPath>..\..\..\Bilgisayar\KLASÖRLER\JDragControl.dll</HintPath>

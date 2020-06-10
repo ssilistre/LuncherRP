@@ -11,3 +11,16 @@ D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Fivemcode_Basic.csproj.Co
 D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Fivemcode_Basic.csproj.CopyComplete
 D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Fivemcode.exe
 D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Fivemcode.pdb
+D:\Github\LuncherRP\bin\Debug\Fivemcode.exe.config
+D:\Github\LuncherRP\bin\Debug\Fivemcode.exe
+D:\Github\LuncherRP\bin\Debug\Fivemcode.pdb
+D:\Github\LuncherRP\bin\Debug\Newtonsoft.Json.dll
+D:\Github\LuncherRP\bin\Debug\DiscordRPC.dll
+D:\Github\LuncherRP\obj\Debug\Fivemcode_Basic.csprojAssemblyReference.cache
+D:\Github\LuncherRP\obj\Debug\Robin_Launcher.index_1.resources
+D:\Github\LuncherRP\obj\Debug\Fivemcode.Properties.Resources.resources
+D:\Github\LuncherRP\obj\Debug\Fivemcode_Basic.csproj.GenerateResource.cache
+D:\Github\LuncherRP\obj\Debug\Fivemcode_Basic.csproj.CoreCompileInputs.cache
+D:\Github\LuncherRP\obj\Debug\Fivemcode_Basic.csproj.CopyComplete
+D:\Github\LuncherRP\obj\Debug\Fivemcode.exe
+D:\Github\LuncherRP\obj\Debug\Fivemcode.pdb
