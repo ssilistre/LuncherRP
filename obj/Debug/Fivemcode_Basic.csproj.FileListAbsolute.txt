@@ -1,0 +1,13 @@
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\bin\Debug\Fivemcode.exe.config
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\bin\Debug\Fivemcode.exe
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\bin\Debug\Fivemcode.pdb
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\bin\Debug\Newtonsoft.Json.dll
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\bin\Debug\DiscordRPC.dll
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Fivemcode_Basic.csprojAssemblyReference.cache
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Robin_Launcher.index_1.resources
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Fivemcode.Properties.Resources.resources
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Fivemcode_Basic.csproj.GenerateResource.cache
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Fivemcode_Basic.csproj.CoreCompileInputs.cache
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Fivemcode_Basic.csproj.CopyComplete
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Fivemcode.exe
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\Debug\Fivemcode.pdb
