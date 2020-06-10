@@ -1,9 +1,11 @@
 # LuncherRP
 Open Source Fivem Luncher Library
+ 
+Yeni Tanıtım Videosu: 
+https://www.youtube.com/watch?v=xSYMGZG4HPg
 
-
-Yeni Tanıtım Videosu: https://youtu.be/5Ccpd3Cq-No
-Eski Youtube anlatımı için: https://www.youtube.com/watch?v=FcHfcvAY8CU
+Eski Youtube anlatımı için: 
+https://youtu.be/5Ccpd3Cq-No
 
 ## Sunucu Kayıt için = http://panel.fivemcode.com
 ![Resim1](https://i.hizliresim.com/7091fF.png)
@@ -25,8 +27,6 @@ Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda mi
 -Web panelden duyurular yayınlama
 -Otomatik steam id ve steam adını alır uygulama
 
-**Yeni Standart Tarz**
-![Goruntu](https://i.hizliresim.com/qZ4b71.png)
   
   
 Projeyi github adresimden indirip üzerinde düzenleme yapabilirsiniz(Bu yol ile çok hızlı ilerleme kaydedebilirsiniz). Birden fazla kişi aynı özelliği isterse ekleyebilirim.  
