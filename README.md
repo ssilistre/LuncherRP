@@ -53,7 +53,6 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
 **Kullanabileceğiniz komutlar:**  
 
  - rp.serverinfos("serverkey") //Bu size özel sunucu keyinizle bilgilerinizi çeken komut.
- - rp.takeplayerlist(serverkey) //bu komut oyuncu listesini indirmeye yarar.
  - rp.kisiSayisi;// (Bu string değerdir online kişi sayısı bilgini barındırır.)
  - rp.sunucuDurum;// (Bu string değer sunucunuzun durumunu barındırır.)
  - rp.DiscordRC("ilk mesaj" , "ikinci mesaj"); //Bu aşağıdaki discord rc görünümün ilk satırı ve ikinci satırıdır.
