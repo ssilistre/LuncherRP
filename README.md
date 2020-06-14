@@ -70,6 +70,8 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
  - rp.duyurular; //(Bu komut string olarak duyurular yazısını barındırır.)
  - rp.steamidgirformu(); //(Bu komut steamid girme formunu açtırır)
  - rp.steamid64("buraya steam 64 idsi"); //Bu alana steam 64 idi vererek steamhex idisini alabilirsiniz.
+ - rp.steamusername(); // bu komut size adamın steamnameni verir.
+ - rp.steamhexid(); // bu komut size adamın hexini gösterir.
 
 Hata Mesajlarını değiştirmek için yazılması gerekenler:
 
