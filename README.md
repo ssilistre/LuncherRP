@@ -10,7 +10,7 @@ https://youtu.be/5Ccpd3Cq-No
 ## Sunucu Kayıt için = http://panel.fivemcode.com
 ![Resim1](https://i.hizliresim.com/7091fF.png)
 
-  
+ 
 Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda minik bir kütüphane ile bağladım.  Minik kütüphaneyide web panele bağladım fivemcode.com ortaya çıktı.
 İsteyen arkadaşlar ücretsiz bir şekilde istedikleri tasarımı giydirerek üzerinde düzenleme yapabilir.  
   
@@ -27,7 +27,8 @@ Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda mi
 -Web panelden duyurular yayınlama
 -Otomatik steam id ve steam adını alır uygulama
 
-  
+![Resim2](https://i.hizliresim.com/91gmZR.png)
+
   
 Projeyi github adresimden indirip üzerinde düzenleme yapabilirsiniz(Bu yol ile çok hızlı ilerleme kaydedebilirsiniz). Birden fazla kişi aynı özelliği isterse ekleyebilirim.  
 Eğer projeyi indirip düzenlerseniz aşağıdaki 3 adımı yapmanıza gerek yok.  
