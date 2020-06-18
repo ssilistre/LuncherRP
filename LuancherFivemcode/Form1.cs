@@ -14,7 +14,7 @@ namespace LuancherFivemcode
     {
         lib rp = new lib();
         Point lastPoint;
-        string serverkey = "373325ee24b3610013";//https://panel.fivemcode.com Keyinizi yapıştırın.
+        string serverkey = "184255ee7be71f2e9e";//https://panel.fivemcode.com Keyinizi yapıştırın.
         public Form1()
         {
             /////////Bu kısmı ellemeyiniz.//////////////////
