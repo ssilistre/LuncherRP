@@ -100,7 +100,7 @@ Hata Mesajlarını değiştirmek için yazılması gerekenler:
  En sonunda sunucu dosyalarını indirin sunucu dosyalarının içinde ki server.lua aşağıdaki resimdeki alanları düzenleyin.Altı kırmızı çizili alana sunucu kayit daki özel idnizi giriniz.
  ![Lua görüntüsü](https://i.hizliresim.com/HARCP9.png)
  
- **Sunucu dosyalari için** https://github.com/ssilistre/LuncherRP/releases/download/V1.0.0.7/yeni_Sunucu_Dosyalari.rar
+ **Sunucu dosyalari için** https://github.com/ssilistre/LuncherRP/releases/download/V1.0.1.0/FiveMCode.Sunucu.Dosyalari.rar
 
 Sorunlar olabilir bana yazarak iletebilirsiniz. Eklenmesini istediğiniz şeyler olabilir onları da iletebilirsiniz. Ücretsiz arkadaşlar üstüne sizde geliştirme ekleyebilirsiniz.  
 Yukarıdaki komutları kullanarak kendi tasarımızı da geliştirmeniz mümkün. Burada ki hile algoritması %100 sonuç vermeyebilir , engelleyecektir. Minik bir denemeyi cheatengine ile yapabilirsiniz.  
