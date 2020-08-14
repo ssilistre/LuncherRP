@@ -38,11 +38,8 @@ D:\Github\LuncherRP\LuancherFivemcode\obj\Debug\LuancherFivemcode.pdb
 D:\İndirilenler\Compressed\LuncherRP-master\LuncherRP-master\LuancherFivemcode\bin\Debug\LuancherFivemcode.exe.config
 D:\İndirilenler\Compressed\LuncherRP-master\LuncherRP-master\LuancherFivemcode\bin\Debug\LuancherFivemcode.exe
 D:\İndirilenler\Compressed\LuncherRP-master\LuncherRP-master\LuancherFivemcode\bin\Debug\LuancherFivemcode.pdb
-D:\İndirilenler\Compressed\LuncherRP-master\LuncherRP-master\LuancherFivemcode\bin\Debug\fivemLuncher.dll
 D:\İndirilenler\Compressed\LuncherRP-master\LuncherRP-master\LuancherFivemcode\bin\Debug\Newtonsoft.Json.dll
 D:\İndirilenler\Compressed\LuncherRP-master\LuncherRP-master\LuancherFivemcode\bin\Debug\DiscordRPC.dll
-D:\İndirilenler\Compressed\LuncherRP-master\LuncherRP-master\LuancherFivemcode\bin\Debug\fivemLuncher.pdb
-D:\İndirilenler\Compressed\LuncherRP-master\LuncherRP-master\LuancherFivemcode\bin\Debug\fivemLuncher.dll.config
 D:\İndirilenler\Compressed\LuncherRP-master\LuncherRP-master\LuancherFivemcode\bin\Debug\Newtonsoft.Json.xml
 D:\İndirilenler\Compressed\LuncherRP-master\LuncherRP-master\LuancherFivemcode\bin\Debug\DiscordRPC.pdb
 D:\İndirilenler\Compressed\LuncherRP-master\LuncherRP-master\LuancherFivemcode\bin\Debug\DiscordRPC.xml

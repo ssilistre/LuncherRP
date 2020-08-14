@@ -38,9 +38,9 @@
     <ApplicationIcon>fivem-logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="fivemLuncher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="luancher, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Projeler\FivemLuancherDLL\fivemLuncher\bin\Debug\fivemLuncher.dll</HintPath>
+      <HintPath>bin\Debug\luancher.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
