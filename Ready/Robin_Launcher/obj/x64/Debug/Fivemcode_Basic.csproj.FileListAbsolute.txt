@@ -1,0 +1,5 @@
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\x64\Debug\Robin_Launcher.index_1.resources
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\x64\Debug\Fivemcode.Properties.Resources.resources
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\x64\Debug\Fivemcode_Basic.csproj.GenerateResource.cache
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\x64\Debug\Fivemcode_Basic.csproj.CoreCompileInputs.cache
+D:\Projeler\FivemcodeLuancher\Robin_Launcher\obj\x64\Debug\Fivemcode_Basic.csprojAssemblyReference.cache

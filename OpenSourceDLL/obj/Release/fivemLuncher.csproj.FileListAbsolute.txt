@@ -1,0 +1,15 @@
+C:\Users\salam\source\repos\fivemLuncher\bin\Release\fivemLuncher.dll
+C:\Users\salam\source\repos\fivemLuncher\bin\Release\fivemLuncher.pdb
+C:\Users\salam\source\repos\fivemLuncher\obj\Release\fivemLuncher.csprojAssemblyReference.cache
+C:\Users\salam\source\repos\fivemLuncher\obj\Release\fivemLuncher.csproj.CoreCompileInputs.cache
+C:\Users\salam\source\repos\fivemLuncher\obj\Release\fivemLuncher.dll
+C:\Users\salam\source\repos\fivemLuncher\obj\Release\fivemLuncher.pdb
+C:\Users\salam\source\repos\fivemLuncher\bin\Release\Newtonsoft.Json.dll
+C:\Users\salam\source\repos\fivemLuncher\bin\Release\Newtonsoft.Json.xml
+C:\Users\salam\source\repos\fivemLuncher\obj\Release\fivemLuncher.csproj.CopyComplete
+C:\Users\salam\source\repos\fivemLuncher\bin\Release\fivemLuncher.dll.config
+C:\Users\salam\source\repos\fivemLuncher\bin\Release\HtmlAgilityPack.dll
+C:\Users\salam\source\repos\fivemLuncher\bin\Release\HtmlAgilityPack.pdb
+C:\Users\salam\source\repos\fivemLuncher\bin\Release\HtmlAgilityPack.xml
+C:\Users\salam\source\repos\fivemLuncher\obj\Release\fivemLuncher.Katkilarim.resources
+C:\Users\salam\source\repos\fivemLuncher\obj\Release\fivemLuncher.csproj.GenerateResource.cache
