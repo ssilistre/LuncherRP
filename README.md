@@ -30,7 +30,7 @@ Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda mi
 -Web panelden duyurular yayınlama
 -Otomatik steam id ve steam adını alır uygulama
 
-![Resim2](https://i.hizliresim.com/91gmZR.png)
+![Resim2](https://i.hizliresim.com/GbemuK.png)
 
   
 Projeyi github adresimden indirip üzerinde düzenleme yapabilirsiniz(Bu yol ile çok hızlı ilerleme kaydedebilirsiniz). Birden fazla kişi aynı özelliği isterse ekleyebilirim.  
