@@ -10,6 +10,7 @@ https://youtu.be/5Ccpd3Cq-No
 ## Sunucu Kayıt için = http://panel.fivemcode.com
 ![Resim1](https://i.hizliresim.com/7091fF.png)
 
+### DLL dosyası içinde.
  
 Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda minik bir kütüphane ile bağladım.  Minik kütüphaneyide web panele bağladım fivemcode.com ortaya çıktı.
 İsteyen arkadaşlar ücretsiz bir şekilde istedikleri tasarımı giydirerek üzerinde düzenleme yapabilir.  
@@ -22,7 +23,7 @@ Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda mi
 -Discord üstünden mesaj gönderebilme
 -Online sunucudaki üyelerin sayısını görebilme
 -Lunchersız girişi kapatabilme
--Whitelist özelliği ile üyeleri yönetebilme
+-Üyelere Bypass verebilme
 -Web panelden güncelleme yayınlama
 -Web panelden duyurular yayınlama
 -Otomatik steam id ve steam adını alır uygulama
@@ -33,7 +34,7 @@ Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda mi
 Projeyi github adresimden indirip üzerinde düzenleme yapabilirsiniz(Bu yol ile çok hızlı ilerleme kaydedebilirsiniz). Birden fazla kişi aynı özelliği isterse ekleyebilirim.  
 Eğer projeyi indirip düzenlerseniz aşağıdaki 3 adımı yapmanıza gerek yok.  
   
-**1-Adım** = Yeni bir proje oluşturduktan sonra fivemluncher.dll projeye bileşen olarak eklemelisiniz.  
+**1-Adım** = Yeni bir proje oluşturduktan sonra luancher.dll projeye bileşen olarak eklemelisiniz.  
    ![Adim1](https://s6.gifyu.com/images/adim1.gif)
   
 **Adım 2** = Aşağıda ki kodu form.cs eklemelisiniz.  
@@ -53,22 +54,18 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
 **Kullanabileceğiniz komutlar:**  
 
  - rp.serverinfos("serverkey") //Bu size özel sunucu keyinizle bilgilerinizi çeken komut.
- - rp.kisiSayisi;// (Bu string değerdir online kişi sayısı bilgini barındırır.)
- - rp.sunucuDurum;// (Bu string değer sunucunuzun durumunu barındırır.)
  - rp.DiscordRC("ilk mesaj" , "ikinci mesaj"); //Bu aşağıdaki discord rc görünümün ilk satırı ve ikinci satırıdır.
- - rp.stopHacks(); //Hile algoritmasını çalıştırır. 1 kere çalıştırır. Sürekli olması için timer içine eklemelisiniz.
+ - rp.anticheat(); //Hile algoritmasını çalıştırır. 1 kere çalıştırır. Sürekli olması için timer içine eklemelisiniz.
  - rp.ConnectWithPanel("serverkey"); //Bu komut ise luancher kontrolü yapar 
- - rp.BackupSystem("ipadres","portno"); // Bu panel çalışmaz ise sizin sunucunuza bağlanmanızı sağlar.
  - rp.ConnectFivem("ipadres" , "port numarası"); //normal bağlantı komutu
- - rp.Cachedelete(); //Cache dosyalarını temizleyen komut.
- - rp.discordopen("davetlinki")  //discordu açar ve panelden değiştirebilmenize yarar.
+ - rp.discordopen()  //discordu açar ve panelden değiştirebilmenize yarar.
  - rp.ts3open("ipadresi","port") //ts3 açar ve panelden değiştirebilmenize yarar.
  - rp.closeFivem();  //Fivemi kapatır bu komut.
  - rp.open("discord"); //discord açar ts açar artık ne istiyorsanız onu açar bu komut.
  - rp.PlaySound("müzik.mp4"); //müzik mp4 adındaki şarkıyı çalar bu komut.
- - rp.update(); // güncelleme komutudur.
+ - rp.guncelle(); // güncelleme komutudur.
  - rp.duyurular; //(Bu komut string olarak duyurular yazısını barındırır.)
- - rp.steamidgirformu(); //(Bu komut steamid girme formunu açtırır)
+ - 
  - rp.steamid64("buraya steam 64 idsi"); //Bu alana steam 64 idi vererek steamhex idisini alabilirsiniz.
  - rp.steamusername(); // bu komut size adamın steamnameni verir.
  - rp.steamhexid(); // bu komut size adamın hexini gösterir.
