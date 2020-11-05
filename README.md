@@ -10,7 +10,9 @@ https://youtu.be/5Ccpd3Cq-No
 ## Sunucu Kayıt için = http://panel.fivemcode.com
 ![Resim1](https://i.hizliresim.com/7091fF.png)
 
-### DLL dosyası içinde.
+## Kullanmak için indirdiğiniz dosyanın içindeki Ready klasöründeki Luancherı düzenleyebilirsiniz.
+## İndirdiğiniz dosyanın içinde Lua klasörünü sunucunuzda modların kurulu olduğu yere atıp start veriniz.
+## OpenSourceDLL bence ellemeyin :d açık kaynak olarak dll paylaşılmıştır.
  
 Selam arkadaşlar ücretsiz açık kaynaklı bir luncher geliştirdim. Bunuda minik bir kütüphane ile bağladım.  Minik kütüphaneyide web panele bağladım fivemcode.com ortaya çıktı.
 İsteyen arkadaşlar ücretsiz bir şekilde istedikleri tasarımı giydirerek üzerinde düzenleme yapabilir.  
