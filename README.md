@@ -57,7 +57,7 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
 
  - rp.serverinfos("serverkey") //Bu size özel sunucu keyinizle bilgilerinizi çeken komut.
  - rp.DiscordRC("ilk mesaj" , "ikinci mesaj"); //Bu aşağıdaki discord rc görünümün ilk satırı ve ikinci satırıdır.
- - rp.anticheat(); //Hile algoritmasını çalıştırır. 1 kere çalıştırır. Sürekli olması için timer içine eklemelisiniz.
+ - rp.anticheat(); //Hile algoritmasını çalıştırır. Cpu kullanmaması için background worker içine koymanız yeterlidir.
  - rp.ConnectWithPanel("serverkey"); //Bu komut ise luancher kontrolü yapar 
  - rp.ConnectFivem("ipadres" , "port numarası"); //normal bağlantı komutu
  - rp.discordopen()  //discordu açar ve panelden değiştirebilmenize yarar.
@@ -67,7 +67,6 @@ Evet şimdi ne yapmak istiyorsanız luncherda onla alakalı komutu çağırabili
  - rp.PlaySound("müzik.mp4"); //müzik mp4 adındaki şarkıyı çalar bu komut.
  - rp.guncelle(); // güncelleme komutudur.
  - rp.duyurular; //(Bu komut string olarak duyurular yazısını barındırır.)
- - 
  - rp.steamid64("buraya steam 64 idsi"); //Bu alana steam 64 idi vererek steamhex idisini alabilirsiniz.
  - rp.steamusername(); // bu komut size adamın steamnameni verir.
  - rp.steamhexid(); // bu komut size adamın hexini gösterir.
@@ -92,15 +91,13 @@ Hata Mesajlarını değiştirmek için yazılması gerekenler:
 ![RC](https://i.hizliresim.com/cioI2L.png)
 
 
-
+### panel.fivemcode.com adresinden engellenen hileleri görebilirsiniz.
 
 ### Sunucuyu buradan kayit ettirebilirsiniz https://panel.fivemcode.com
  
  En sonunda sunucu dosyalarını indirin sunucu dosyalarının içinde ki server.lua aşağıdaki resimdeki alanları düzenleyin.Altı kırmızı çizili alana sunucu kayit daki özel idnizi giriniz.
  ![Lua görüntüsü](https://i.hizliresim.com/HARCP9.png)
  
- **Sunucu dosyalari için** https://github.com/ssilistre/LuncherRP/releases/download/V1.0.1.0/FiveMCode.Sunucu.Dosyalari.rar
-
 Sorunlar olabilir bana yazarak iletebilirsiniz. Eklenmesini istediğiniz şeyler olabilir onları da iletebilirsiniz. Ücretsiz arkadaşlar üstüne sizde geliştirme ekleyebilirsiniz.  
 Yukarıdaki komutları kullanarak kendi tasarımızı da geliştirmeniz mümkün. Burada ki hile algoritması %100 sonuç vermeyebilir , engelleyecektir. Minik bir denemeyi cheatengine ile yapabilirsiniz.  
   
