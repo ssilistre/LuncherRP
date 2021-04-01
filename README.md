@@ -7,7 +7,6 @@ https://www.youtube.com/watch?v=xSYMGZG4HPg
 Eski Youtube anlatımı için: 
 https://youtu.be/5Ccpd3Cq-No
 
-## Sunucu Kayıt için = http://panel.fivemcode.com
 ![Resim1](https://i.hizliresim.com/7091fF.png)
 
 ## Kullanmak için indirdiğiniz dosyanın içindeki Ready klasöründeki Luancherı düzenleyebilirsiniz.
